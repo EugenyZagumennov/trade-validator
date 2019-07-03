@@ -8,6 +8,11 @@ import com.meritkapital.tradevalidator.rules.AbstractRule;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Rule: customers should be from the list of supported ones
+ *
+ * @author Evgenii Zagumennov
+ */
 public class RuleValidCustomer extends AbstractRule {
     private Set<Customer> validCustomers;
 

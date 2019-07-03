@@ -2,6 +2,11 @@ package com.meritkapital.tradevalidator.core.enums;
 
 import com.meritkapital.tradevalidator.core.exceptions.mappingexcpetions.InvalidCurrencyException;
 
+/**
+ * Supported currencies
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum Currency {
     EUR("EUR"), USD("USD");
 

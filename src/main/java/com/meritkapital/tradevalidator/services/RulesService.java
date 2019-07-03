@@ -18,6 +18,11 @@ import java.util.List;
 
 import static com.meritkapital.tradevalidator.core.enums.Type.*;
 
+/**
+ * Service which applies rules for a {@link RequestEntity}
+ *
+ * @author Evgenii Zagumennov
+ */
 @Service
 public class RulesService {
     private AbstractRule[] rulesForAll = {

@@ -2,6 +2,11 @@ package com.meritkapital.tradevalidator.core.enums;
 
 import com.meritkapital.tradevalidator.core.exceptions.mappingexcpetions.InvalidStyleException;
 
+/**
+ * Supported styles
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum Style {
     EUROPEAN("EUROPEAN"), AMERICAN("AMERICAN");
 

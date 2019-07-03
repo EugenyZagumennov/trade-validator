@@ -12,6 +12,11 @@ import org.springframework.stereotype.Service;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Service which validates {@link RequestDtoList}
+ *
+ * @author Evgenii Zagumennov
+ */
 @Service
 public class ValidatorService {
 
@@ -21,6 +26,12 @@ public class ValidatorService {
     @Autowired
     private RulesService rulesService;
 
+    /**
+     * Validates {@link RequestDtoList}
+     *
+     * @param dtoList {@link RequestDtoList}
+     * @return {@link ResponseDtoList}
+     */
     public ResponseDtoList validate(RequestDtoList dtoList){
         ResponseDtoList result = new ResponseDtoList();
         List<RequestDto> list = dtoList.getTest();

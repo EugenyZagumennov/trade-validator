@@ -6,6 +6,11 @@ import lombok.Builder;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Wrapper for a bundle of some rules
+ *
+ * @author Evgenii Zagumennov
+ */
 @Builder
 public class RulesBundle {
     private RequestEntity object;

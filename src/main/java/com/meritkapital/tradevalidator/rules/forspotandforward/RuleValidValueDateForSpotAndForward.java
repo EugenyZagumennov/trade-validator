@@ -4,6 +4,11 @@ import com.meritkapital.tradevalidator.core.entities.RequestEntity;
 import com.meritkapital.tradevalidator.core.exceptions.ruleexceptions.RuleException;
 import com.meritkapital.tradevalidator.rules.AbstractRule;
 
+/**
+ * Rule: value date should nor be null!
+ *
+ * @author Evgenii Zagumennov
+ */
 public class RuleValidValueDateForSpotAndForward extends AbstractRule {
 
     /**

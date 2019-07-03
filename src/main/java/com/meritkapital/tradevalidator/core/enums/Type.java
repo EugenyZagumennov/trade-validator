@@ -2,6 +2,11 @@ package com.meritkapital.tradevalidator.core.enums;
 
 import com.meritkapital.tradevalidator.core.exceptions.mappingexcpetions.InvalidTypeException;
 
+/**
+ * Supported types
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum Type {
     FXSPOT("Spot"), FORWARD("Forward"), OPTION("VanillaOption");
 

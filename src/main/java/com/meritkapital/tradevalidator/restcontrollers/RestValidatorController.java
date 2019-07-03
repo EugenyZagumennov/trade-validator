@@ -6,6 +6,11 @@ import com.meritkapital.tradevalidator.core.dto.ResponseDtoList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Controller for REST API
+ *
+ * @author Evgenii Zagumennov
+ */
 @RestController
 @RequestMapping("/api")
 public class RestValidatorController {

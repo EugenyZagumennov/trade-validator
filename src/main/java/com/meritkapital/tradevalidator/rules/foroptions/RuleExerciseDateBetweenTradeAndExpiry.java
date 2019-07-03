@@ -7,6 +7,11 @@ import com.meritkapital.tradevalidator.rules.AbstractRule;
 
 import java.time.LocalDate;
 
+/**
+ * Rule: exercise date should be after trade date and before expiry date
+ *
+ * @author Evgenii Zagumennov
+ */
 public class RuleExerciseDateBetweenTradeAndExpiry extends AbstractRule {
     @Override
     public void apply(RequestEntity entity) throws RuleException {

@@ -5,6 +5,11 @@ import com.meritkapital.tradevalidator.core.enums.Style;
 import com.meritkapital.tradevalidator.core.exceptions.ruleexceptions.RuleException;
 import com.meritkapital.tradevalidator.rules.AbstractRule;
 
+/**
+ * Rule: style should be American or European
+ *
+ * @author Evgenii Zagumennov
+ */
 public class RuleStyleEuropeanOrAmerican extends AbstractRule {
     @Override
     public void apply(RequestEntity entity) throws RuleException {

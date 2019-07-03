@@ -2,6 +2,11 @@ package com.meritkapital.tradevalidator.core.dto;
 
 import lombok.Data;
 
+/**
+ * Comprehensive DTO for request item
+ *
+ * @author Evgenii Zagumennov
+ */
 @Data
 public class RequestDto {
     private Integer id;

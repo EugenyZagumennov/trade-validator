@@ -7,6 +7,11 @@ import com.meritkapital.tradevalidator.rules.AbstractRule;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
+/**
+ * Rule: value date cannot fall on weekend
+ *
+ * @author Evgenii Zagumennov
+ */
 public class RuleValueDateNotOnWeekend extends AbstractRule {
 
     @Override

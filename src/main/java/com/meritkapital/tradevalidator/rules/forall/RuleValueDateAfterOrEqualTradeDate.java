@@ -6,6 +6,11 @@ import com.meritkapital.tradevalidator.rules.AbstractRule;
 
 import java.time.LocalDate;
 
+/**
+ * Rule: value date cannot be before trade date
+ *
+ * @author Evgenii Zagumennov
+ */
 public class RuleValueDateAfterOrEqualTradeDate extends AbstractRule {
 
     @Override

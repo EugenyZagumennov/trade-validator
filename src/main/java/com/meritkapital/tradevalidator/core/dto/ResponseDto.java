@@ -5,6 +5,11 @@ import lombok.Getter;
 
 import java.util.List;
 
+/**
+ * Response DTO
+ *
+ * @author Evgenii Zagumennov
+ */
 @Getter
 @Builder
 public class ResponseDto {

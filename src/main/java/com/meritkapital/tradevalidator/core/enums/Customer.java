@@ -2,6 +2,11 @@ package com.meritkapital.tradevalidator.core.enums;
 
 import com.meritkapital.tradevalidator.core.exceptions.mappingexcpetions.InvalidCustomerException;
 
+/**
+ * Supported customers
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum Customer {
     PLUTO1("PLUTO1"), PLUTO2("PLUTO2");
 

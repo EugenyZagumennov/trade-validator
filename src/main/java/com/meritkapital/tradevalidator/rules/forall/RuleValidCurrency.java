@@ -8,6 +8,11 @@ import com.meritkapital.tradevalidator.rules.AbstractRule;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Rule: currencies should be from the list of supported ones
+ *
+ * @author Evgenii Zagumennov
+ */
 public class RuleValidCurrency extends AbstractRule {
     private Set<Currency> validCurrencies;
 

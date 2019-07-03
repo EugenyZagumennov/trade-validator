@@ -2,6 +2,11 @@ package com.meritkapital.tradevalidator.core.enums;
 
 import com.meritkapital.tradevalidator.core.exceptions.mappingexcpetions.InvalidDirectionException;
 
+/**
+ * Supported directions
+ *
+ * @author Evgenii Zagumennov
+ */
 public enum Direction {
     BUY("BUY"), SELL("SELL");
 

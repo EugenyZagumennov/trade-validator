@@ -10,6 +10,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import com.meritkapital.tradevalidator.core.enums.Currency;
 
+/**
+ * Mapper for mapping {@link RequestDto} to {@link RequestEntity}
+ *
+ * @author Evgenii Zagumennov
+ */
 @Mapper(componentModel = "spring")
 public abstract class RequestDtoMapper {
 
